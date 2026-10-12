@@ -1,5 +1,5 @@
 ## 🔍 SQL Implementation & Analysis
-Please take a look at the SQL analysis on the next file (`rfm_segmentation_query.sql`), or review the core execution script below:
+Please take a look at the SQL analysis: 
 
 ```sql
 -- E-Commerce RFM Customer Segmentation & CLV Engine
