@@ -1,5 +1,5 @@
 ## 🔍 SQL Implementation & Analysis
-The following script handles database setup, sample data ingestion, and executes the automated RFM segmentation engine:
+Please take a look at the SQL analysis on the next file (`rfm_segmentation_query.sql`), or review the core execution script below:
 
 ```sql
 -- E-Commerce RFM Customer Segmentation & CLV Engine
