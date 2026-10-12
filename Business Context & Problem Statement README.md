@@ -12,20 +12,22 @@
 * **Query Language:** SQL (CTEs, Window Functions, Conditional Aggregation, Date Math)
 * **Version Control:** GitHub
 
----
+## 🔍 SQL Implementation & Analysis
+Please take a look at the SQL analysis on the next file (`rfm_segmentation_query.sql`)
 
+---
 
 ## Results & Business Impact
 When executed against the relational dataset, the segmentation engine successfully classifies customers into behavioral tiers:
 
 | customer_id | acquisition_channel | recency_days | frequency_count | total_monetary_spend | customer_segment |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 101 | Paid Search | 27 | 4 | $900.00 | Champions (VIP) |
-| 106 | Social | 424 | 2 | $750.00 | At-Risk High Value |
-| 103 | Organic | 586 | 2 | $620.00 | At-Risk High Value |
-| 102 | Social | 216 | 3 | $255.00 | Loyal Customers |
-| 104 | Paid Search | 11 | 2 | $170.00 | Loyal Customers |
-| 105 | Email | 505 | 1 | $45.00 | Recent / Low Engagement |
+| 101 | Paid Search | 27 | 4 | $900.00 | 🏆 Champions (VIP) |
+| 106 | Social | 424 | 2 | $750.00 | ⚠️ At-Risk High Value |
+| 103 | Organic | 586 | 2 | $620.00 | ⚠️ At-Risk High Value |
+| 102 | Social | 216 | 3 | $255.00 | ⭐ Loyal Customers |
+| 104 | Paid Search | 11 | 2 | $170.00 | ⭐ Loyal Customers |
+| 105 | Email | 505 | 1 | $45.00 | 🌱 Recent / Low Engagement |
 
 **Strategic Takeaway:** 
 Instead of spending generic acquisition budget, marketing can now instantly target Customer 106 with an automated win-back campaign to protect high-value revenue.
